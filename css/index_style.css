@@ -1,0 +1,58 @@
+.content
+{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+
+.on-img
+{
+    position: absolute;
+    bottom: 15px;
+    left: 10%;
+    background-color: rgba(15, 76, 129 , 0.4);
+    width: 80%;
+    border-radius: 30px;
+    font-family: 'Dancing Script', cursive !important;
+    color: #fff;
+}
+
+
+.layout
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 76, 129 , 0.4);
+    display: none ;
+
+}
+
+
+.light-box
+{
+ 
+    width: 40%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+#close
+{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+}
+
+#close , #after , #before
+{
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
